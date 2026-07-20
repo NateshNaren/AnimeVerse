@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeVerse | Anime Fan Site</title>
+
+    <style>
+        body {
+            background-color: #12181b;
+            color: #e8e8e8;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff8c42;
+            letter-spacing: 2px;
+        }
+
+        p.tagline {
+            text-align: center;
+            color: #cfcfcf;
+        }
+
+        .section {
+            border: 1px solid #2c363a;
+            background-color: #1c2529;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        h2 {
+            color: #ff8c42;
+            border-left: 5px solid #ff8c42;
+            padding-left: 10px;
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-height: 320px;
+            object-fit: cover;
+            object-position: center 30%;
+            border-radius: 6px;
+        }
+
+        .caption {
+            font-size: 13px;
+            color: #999;
+        }
+
+        .poster {
+            width: 220px;
+            float: left;
+            margin: 0 15px 10px 0;
+            border-radius: 6px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #2c363a;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ff8c42;
+            color: #0a0f11;
+        }
+
+        td {
+            background-color: #12181b;
+        }
+
+        a {
+            color: #ff8c42;
+        }
+
+        footer {
+            text-align: center;
+            color: #888;
+            border-top: 3px solid #ff8c42;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <h1 id="top">AnimeVerse</h1>
+    <p class="tagline">Your hub for anime recommendations, genres, and fan community</p>
+
+    <!-- Hero Banner (Clickable Image Link) -->
+    <div class="hero">
+        <a href="https://en.wikipedia.org/wiki/Anime" target="_blank">
+            <img src="images/hero-banner.jpg" alt="Bleach Gotei 13 captains lineup" class="hero-img">
+        </a>
+        <p class="caption">Click the banner to read about anime on Wikipedia</p>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="section" id="about">
+        <h2>About This Site</h2>
+        <p>
+            AnimeVerse is a fan-made site for anime lovers. Browse anime by genre, check out
+            a ranked collection, and follow the links to learn more about each show.
+        </p>
+        <p>
+            Whether you are new to anime or a longtime fan, AnimeVerse brings together
+            recommendations, background information, and links to learn more about your
+            favorite shows.
+        </p>
+    </div>
+
+    <!-- Site Stats Section -->
+    <div class="section" id="stats">
+        <h2>Quick Facts</h2>
+        <ul>
+            <li>3 Featured Anime</li>
+            <li>4 Genres Covered</li>
+            <li>9 Anime Linked to Wikipedia</li>
+            <li>Updated with New Picks Regularly</li>
+        </ul>
+    </div>
+
+    <!-- Featured Anime Section -->
+    <div class="section" id="featured">
+        <h2>Featured Anime</h2>
+
+        <a href="https://en.wikipedia.org/wiki/Bleach:_Thousand-Year_Blood_War" target="_blank">
+            <img src="images/bleach-poster.jpg" alt="Bleach: Thousand-Year Blood War poster" class="poster">
+        </a>
+        <h3>Bleach: Thousand-Year Blood War</h3>
+        <p>The Gotei 13 captains face their final battle against the Quincy army in the
+            climactic arc of Bleach.</p>
+        <div class="clear"></div>
+
+        <a href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood" target="_blank">
+            <img src="images/fma-brotherhood-poster.jpg" alt="Fullmetal Alchemist: Brotherhood poster" class="poster">
+        </a>
+        <h3>Fullmetal Alchemist: Brotherhood</h3>
+        <p>Two brothers use alchemy in their search for the Philosopher's Stone to restore
+            what they lost.</p>
+        <div class="clear"></div>
+
+        <a href="https://en.wikipedia.org/wiki/Jujutsu_Kaisen" target="_blank">
+            <img src="images/jjk-poster.jpg" alt="Jujutsu Kaisen poster" class="poster">
+        </a>
+        <h3>Jujutsu Kaisen</h3>
+        <p>Yuji Itadori joins a secret organization of sorcerers to eliminate a powerful
+            Curse, Ryomen Sukuna.</p>
+        <div class="clear"></div>
+    </div>
+
+    <!-- Genres Section (Nested Lists) -->
+    <div class="section" id="genres">
+        <h2>Browse by Genre</h2>
+
+        <h3>By Type (Unordered)</h3>
+        <ul>
+            <li>Shonen
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Jujutsu_Kaisen" target="_blank">Jujutsu Kaisen</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Naruto" target="_blank">Naruto</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/My_Hero_Academia" target="_blank">My Hero Academia</a></li>
+                </ul>
+            </li>
+            <li>Isekai
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Re:Zero_%E2%88%92_Starting_Life_in_Another_World" target="_blank">Re:Zero</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Sword_Art_Online" target="_blank">Sword Art Online</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Ranked Picks (Ordered)</h3>
+        <ol>
+            <li>Adventure
+                <ol>
+                    <li><a href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood" target="_blank">Fullmetal Alchemist: Brotherhood</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/One_Piece" target="_blank">One Piece</a></li>
+                </ol>
+            </li>
+            <li>Action / Supernatural
+                <ol>
+                    <li><a href="https://en.wikipedia.org/wiki/Bleach_(manga)" target="_blank">Bleach</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba" target="_blank">Demon Slayer</a></li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Collection Table Section -->
+    <div class="section" id="collection">
+        <h2>My Collection</h2>
+        <table>
+            <tr>
+                <th>Anime</th>
+                <th>Genre</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Bleach: Thousand-Year Blood War</td>
+                <td>Action / Supernatural</td>
+                <td>9.2</td>
+            </tr>
+            <tr>
+                <td>Fullmetal Alchemist: Brotherhood</td>
+                <td>Adventure</td>
+                <td>9.1</td>
+            </tr>
+            <tr>
+                <td>Jujutsu Kaisen</td>
+                <td>Shonen</td>
+                <td>8.8</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p><b>Email:</b> <a href="mailto:animeverse@example.com">animeverse@example.com</a></p>
+        <p><b>Phone:</b> <a href="tel:+918072111716">+91 80721 11716</a></p>
+        <p><a href="#about">Jump to About Us</a></p>
+        <p><a href="#top">Back to Top</a></p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 AnimeVerse Fan Site | Fan-made, not affiliated with any studio or publisher</p>
+    </footer>
+
+</body>
+</html>
